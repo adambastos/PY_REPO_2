@@ -1,5 +1,9 @@
 #Ou seja, se você quiser pegar o valor associado à chave 'soma', por exemplo, deve acessar opcoes['soma'].
 
+#Ordem correta dos argumentos
+def exemplo(arg, *args, kwargs= 10, **argumentos):
+    return 0
+
 def operacoes(valor, **opcoes):
     result = 0
     if 'soma' in opcoes:
