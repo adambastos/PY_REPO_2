@@ -18,3 +18,4 @@ print(list_cop)
 print(len(list_cop))
 
 
+ 
