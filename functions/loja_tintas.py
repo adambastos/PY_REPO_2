@@ -5,6 +5,8 @@ Considere que a cobertura da tinta é de 1 litro para cada 6 metros quadrados e 
 que custam R\\$ 80,00 ou em galões de 3,6 litros, que custam R\\$ 25,00.
 
 '''
+
+
 area = float(input('Qual a área em m² a ser pintada? '))
 lata_pinta = 18 * 6
 galao_pinta = 3.6 * 6
