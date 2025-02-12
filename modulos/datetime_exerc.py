@@ -3,7 +3,7 @@ from zoneinfo import ZoneInfo
 import zoneinfo
 
 def verifica_hora(data_hora):
-    if 9 <= data_hora.hour < 17:
+    if 9 <= data_hora.hour < 17: #O atributo .hour retorna um número inteiro representando a hora do dia (de 0 a 23).
         return "Aberto!"
     else:
        return "Fechado"
